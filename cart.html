@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Store Class 22</title>
+    
+    <link rel="stylesheet" href="cart.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="header">
+    <div ><h1 class="logo">shop<span class="color">ora</span></h1></div>
+    <nav class="navbar">
+        <ul class="list">
+            <li> <a href="#home">home</a></li>
+            <li> <a href="#shop">categories</a></li>
+            <li> <a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+    <div class="icons">
+    <span class="search-input">   <i class="fa-brands fa-sistrix"></i>
+    <input type="search" placeholder="search"></span>
+        <span class="circle"><i class="fa-solid fa-cart-shopping"></i>0</span>
+       
+    </div>
+    <div class="menu">
+        <span class="first same"> </span>
+        <span class="second same"> </span>
+        <span class="third same"> </span>
+    </div>
+ </header>
+
+
+ <!-- toast  -->
+<section>
+     <div class="toast">
+    <i class="fa-brands fa-google-pay"></i>
+    <p>Transactions Successfully</p>
+ </div>
+</section>
+ <!-- cart-container-secitons -->
+
+<section class="cart-grid-sections">
+     <div class="cartitems">
+  
+ </div>
+
+</section>
+<section class="finalPrice">
+   <div class="subTotal">
+    <h1>Total Price</h1>
+    <div>
+        <p class="quantity">Quantity </p>
+        <p class="total-quantity">1</p>
+    </div>
+   <div> 
+    <p class="totalPrice"> Total Price </p>
+    <p class="total">300</p>
+</div>
+   <div> 
+    <p class="totalPrice"> Text </p>
+    <p class="total">$20</p>
+</div>
+   <div>
+     <p class="payment"> Price To Pay </p>
+     <p class="pay">300</p>
+   </div>
+   <button class="PaY" onclick="showPopup()">pay  </button>
+   </div>
+</section>
+
+
+<script src="cart.js"></script>
+</body>
+</html>
